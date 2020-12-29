@@ -1,0 +1,107 @@
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Robotomedium;
+  src: url(fonts/Roboto-Medium.ttf);
+
+}
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.landingimage {
+  width: 90%;
+  height: 70%;
+  margin-bottom: 60px;
+}
+
+.container1 {
+  width:100%;
+  padding-left:100px ;
+  background-color: rgb(247, 249, 254);
+  /*background-color: red;*/
+  padding-top: 50px;
+  padding-bottom:30px ;
+}
+
+.row{
+  width: 90%;
+}
+
+.badge-danger {
+
+  background-color: #f86168;
+  border-radius: 3px;
+  padding: 3px;
+  font-family: Roboto, sans-serif;
+  color: white;
+}
+
+.sub-title-badge {
+  color: #f86168;
+  font-family: Roboto, sans-serif;
+}
+
+.title {
+  font-family: Roboto, sans-serif;
+}
+
+.container2{
+   width: 100%;
+   background-color: rgb(247, 249, 254);
+   padding-left: 100px;
+}
+
+.list{
+  list-style-type: none;
+}
+
+.number{
+  font-family: Roboto,sans-serif;
+  font-size: 20px;
+}
+
+.numberstatus{
+  font-family: Roboto,sans-serif;
+}
+.confirmed{
+  color: #7d92bb;
+}
+.recovered{
+ color:#3dca93;
+}
+.deaths{
+  color: #f86168;
+}
+
+.container3{
+   width: 100%;
+   background-color: rgb(255, 249, 254);
+   padding-left: 100px;
+   padding-top: 100px;
+}
+
+.sub-title{
+  color: #f86168;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+}
+.par-section2{
+  font-family: Robotomedium, sans-serif;
+}
+.span-section2{
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+}
+.subsection2{
+   padding-top: 40px;
+   color: #4b556e;
+}
+a{
+  font-family: Robotomedium, sans-serif;
+}
