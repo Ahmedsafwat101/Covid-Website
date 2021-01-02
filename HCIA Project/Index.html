@@ -17,7 +17,8 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
   <script src="action.js"></script>
@@ -79,7 +80,7 @@
   <div class="container1" id="prevent">
     <div class="row my-auto align-items-center justify-content-between">
       <div class="col-lg-6 order-lg-last">
-        <div >
+        <div>
           <img class="landingimage" src="images/header-b.png" alt="" />
         </div>
       </div>
@@ -108,7 +109,7 @@
     </div>
   </div>
   <div class="container2">
-    <div class="row " >
+    <div class="row ">
       <div class="col confirmed numberstatus">
         <p>Worldwide Statistics</p>
       </div>
@@ -120,7 +121,7 @@
       <div class="col">
         <ul class="list">
           <li>
-            <p class="number">81,775,558</p>
+            <p class="number" Id="postive"></p>
           </li>
           <li>
             <p class="numberstatus confirmed">CONFIRMED</p>
@@ -130,7 +131,7 @@
       <div class="col">
         <ul class="list">
           <li>
-            <p class="number">1,787,824</p>
+            <p class="number" id="death"></p>
           </li>
           <li>
             <p class="numberstatus deaths">DEATHS</p>
@@ -139,7 +140,7 @@
       <div class="col">
         <ul class="list">
           <li>
-            <p class="number">57,549,658</p>
+            <p class="number" id="recovered"></p>
           </li>
           <li>
             <p class="numberstatus recovered">RECOVERED</p>
@@ -234,7 +235,7 @@
               </li>
               <br>
               <li>
-                <a href="C:\Users\Safwat\Desktop\HCIA Project\notfound.html">Questions & answers <span class="fa fa-arrow-circle-o-right"></span></a>
+                <a href="notfound.html">Questions & answers <span class="fa fa-arrow-circle-o-right"></span></a>
               </li>
             </ul>
           </div>
@@ -242,7 +243,7 @@
       </div>
     </div>
   </div>
-  <div class="container4"  id="spread">
+  <div class="container4" id="spread">
     <div class="section3 row align-items-center justify-content-center">
       <div class="col-md-6">
         <h6>
@@ -266,7 +267,7 @@
               <img class="spreed-image" src="images/spread-azure-a.png" alt="" />
             </div>
             <div class="card-text">
-              <h4 >
+              <h4>
                 Person-to-person spread as close contact with infected
               </h4>
               <p>
@@ -288,7 +289,8 @@
                 Touching or contact with infected surfaces or objects
               </h4>
               <p>
-                A person can get COVID-19 by touching a surface or object that has the virus on it and then touching their own mouth, nose, or possibly their eyes.
+                A person can get COVID-19 by touching a surface or object that has the virus on it and then touching
+                their own mouth, nose, or possibly their eyes.
               </p>
             </div>
           </div>
@@ -303,7 +305,8 @@
                 Droplets that from infected person coughs or sneezes
               </h4>
               <p>
-                The coronavirus is thought to spread mainly from person to person. This can happen between people who are in close contact with one another.
+                The coronavirus is thought to spread mainly from person to person. This can happen between people who
+                are in close contact with one another.
               </p>
             </div>
           </div>
@@ -311,7 +314,21 @@
       </div>
     </div>
   </div>
-  
+  <div class="mapcontainer">
+    <iframe id="map" src="https://dataforgood.facebook.com/covid-survey/embed-content?region=WORLD" width="100%"
+      height="398" frameborder="0" scrolling="no"></iframe>
+  </div>
+
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="/__/firebase/8.2.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="/__/firebase/8.2.1/firebase-analytics.js"></script>
+
+  <!-- Initialize Firebase -->
+  <script src="/__/firebase/init.js"></script>
 </body>
 
 </html>
