@@ -19,35 +19,53 @@
   src: url(fonts/Roboto-Thin.ttf);
 
 }
+
+@font-face {
+  font-family: Robotoregular;
+  src: url(fonts/Roboto-Regular.ttf);
+
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.body{
+}
+.div{
+  padding: 0%;
+}
+
 .flourish-embed{
  width: 50%;
 }
 .flourish-map{
   color: #3dca93;
 }
-.
-*{
-  padding: 0px;
-  margin: 0px;
+
+
+.bg-custom {
+  background-color:rgb(252, 252, 252) !important;
 }
 
 .landingimage {
   width: 90%;
-  height: 70%;
+  height: 90%;
   margin-bottom: 60px;
 }
 
 .container1 {
   width:100%;
-  padding-left: 150px;
+  padding-left: 0%;
   background-color: rgb(247, 249, 254);
   /*background-color: red;*/
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom:30px ;
+  
 }
 
 .row{
-  width: 90%;
+  width: 100%;
+  margin: 0;
 }
 
 .badge-danger {
@@ -71,12 +89,15 @@
 
 .container2{
    width: 100%;
+   padding-left: 5%;
+   padding-right: 10%;
    background-color: rgb(247, 249, 254);
-  padding-left: 150px;
+
 }
 
 .list{
   list-style-type: none;
+  padding: 0px;
 }
 
 .number{
@@ -101,8 +122,8 @@
 .container3{
    width: 100%;
    background-color: rgb(247, 249, 254);
-   padding-left: 100px;
    padding-top: 100px;
+   padding-bottom: 10%;
 }
 
 .sub-title{
@@ -124,17 +145,17 @@
 a{
   font-family: Robotomedium, sans-serif;
 }
-
+p{
+  font-family: Robotoregular, sans-serif;
+}
 
 .container4{
-  width: 100%;
   background-color: rgb(247, 249, 254);
-  padding-top: 100px;
-  align-self: center;
-  align-items: center;
-  padding-left: 130px;
-  padding-bottom: 100px;
+}
 
+.card{
+  width: 20rem;
+  height: 25rem ;
 }
 .section3{
   text-align: center;
@@ -149,46 +170,53 @@ a{
   align-self: center;
 }
 
-.card-text{
-  text-align: start;
+.box{
+  display: flex;
+  align-content: center;
+  margin-top: 5%;
+}
+.imgBox{
+   margin-right:2% ;
+
+}
+.boxText{
+ border-width: 10ch;
 }
 
-.card{
-  padding:0px 30px 0 30px;
-  border-radius: 10px;
-  border-width: 0px;
-  z-index: 50;
-  margin-bottom: 15px;
-}
-.spreed-image{
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 100%;
-  height: 100%;
-}
-.p{
- font-family:  Robotothin, sans-serif;
+.roundedImg{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
 }
 
-.par-section3{
-  font-family:  Robotothin, sans-serif;
-  font-weight: 700;
-}
-.bodynotfound{
-}
-.container8{
-   margin-left: 10%;
-   margin-bottom: 2%;
+.col-12{
+  margin: 0;
+  padding: 0;
 }
 
+.notfound-img{
+  margin-top: 10%;
+  width: 40%;
+}
 .img-fluid{
   margin-top: 50px;
+}
+.highlight{
+  color: #1965ff;
 }
 
 .mapcontainer{
   background-color: rgb(247, 249, 254);
 }
 
-.iframe{
+.container{
+  max-width: 100%;
+  padding-left:8% ;
+  padding-right: 8%;
+  background-color: rgb(247, 249, 254);
+  padding-bottom: 10%;
+}
 
+.subheader{
+  line-height: 0px;
 }
